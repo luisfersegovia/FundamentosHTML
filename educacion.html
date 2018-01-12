@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis Segovia">
+    <meta name="description" content="CV digital Luis Segovia">
+    <meta name="keywords" content="cv, digital, luis, segovia, html">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>CV digital Luis Segovia</title>
+</head>
+
+<body>
+    <header>
+        <svg width="35px" viewbox="0 0 35 24">
+            <image xlink:href="img/logo.svg" width="35"></image>
+        </svg>
+        <h1>Hoja de Vida</h1>
+        <h2><strong>Nombre:</strong> Luis Fernando Segovia Baca</h2>
+        <h3><strong>Fecha de Nacimiento:</strong> 21/09/1989</h3>
+        <h3><strong>País:</strong> Perú</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">EDUCACIÓN</a></li>
+            <li><a href="#">EXPERIENCIA</a></li>
+        </ul>
+    </nav>
+    <serction>
+        <h2>Educación</h2>
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>Culminación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2007</td>
+                        <td>USIL</td>
+                        <td>La Molina</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Area51</td>
+                        <td>San Isidro</td>
+                        <td>2015</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+           <h3>Agregar Estudios</h3>
+            <form autocomplete="on">
+                <div>
+                    <strong>Año:</strong>
+                    <select name="year" id="year">
+                        <option value="0">2017</option>
+                        <option value="0">2016</option>
+                        <option value="0">2015</option>
+                        <option value="0">2014</option>
+                        <option value="0">2013</option>
+                        <option value="0">2012</option>
+                        <option value="0">2011</option>
+                        <option value="0">2010</option>
+                    </select>
+                </div><br>
+                <div>
+                    <strong>Institución:</strong>
+                    <input type="text" name="institution" id="institution" required>
+                </div><br>
+                <div>
+                    <strong>Lugar:</strong>
+                    <textarea name="" id="" rows="2"></textarea>
+                </div><br>
+                <div>
+                    <strong>Culminado</strong>
+                    <label for="si">
+                        <input type="radio" name="culminado">
+                        <span>Sí</span>
+                    </label>
+                    <label for="no">
+                        <input type="radio" name="culminado">
+                        <span>No</span>
+                    </label>
+                </div><br>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </serction>
+    <footer> <br> Contacto a <a href="mailto:luisfersegoviabaca@gmail.com?subject=CVdigital">luisfersegoviabaca@gmail.com</a></footer>
+</body>
+</html>
